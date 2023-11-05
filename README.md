@@ -1,4 +1,2 @@
 # TUGAS 1_DASAR PEMROGRAMAN_NESTED LOOP
-Wahyu Indriyani
-2300018020
-Informatika (A)
+Wahyu Indriyani_2300018020_Informatika (A)
