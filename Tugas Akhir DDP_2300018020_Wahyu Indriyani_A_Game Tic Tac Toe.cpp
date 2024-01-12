@@ -4,14 +4,14 @@ using namespace std;
 char board[3][3] = {{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};			// deklarasi array untuk papan permainan
 
 void showtheboard(){							// fungsi untuk menampilkan papan permainan
-  	cout << "              The option" << endl;
-  	cout << "----------------------------------------" << endl;
-    cout << " 1 | 2 | 3 " << endl;
-    cout << "-----------" << endl;
-    cout << " 4 | 5 | 6 " << endl;
-    cout << "-----------" << endl;
-    cout << " 7 | 8 | 9 " << endl;
-    cout << "----------------- Start ----------------" << endl;
+	cout << "              The option" << endl;
+	cout << "----------------------------------------" << endl;
+	cout << " 1 | 2 | 3 " << endl;
+	cout << "-----------" << endl;
+	cout << " 4 | 5 | 6 " << endl;
+	cout << "-----------" << endl;
+	cout << " 7 | 8 | 9 " << endl;
+	cout << "----------------- Start ----------------" << endl;
   	cout << " " << board[0][0] << " | " << board[0][1] << " | " << board[0][2] << endl;
   	cout << "---|---|---" << endl;
   	cout << " " << board[1][0] << " | " << board[1][1] << " | " << board[1][2] << endl;
@@ -30,7 +30,7 @@ char checkthewinner(){							// fungsi untuk memeriksa pemenang atau seri
     	} if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != ' '){
         	return board[0][2];
     	}
-	}
+    }
 	
     bool boardfull = true;					// cek seri
     for (int w = 0; w < 3; w++){
